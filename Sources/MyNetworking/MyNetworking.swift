@@ -11,8 +11,8 @@ public enum NetworkError: Error {
     case decodingFailed(Error)
 }
 
-public class NetworkService {
-    public static let shared = NetworkService()
+public class MyNetworking {
+    public static let shared = MyNetworking()
     
     
     public init() {}
